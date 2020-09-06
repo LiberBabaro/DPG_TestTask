@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hello</h1>
+<div class="form_container">
+    <form class="myForm">
+        <h3>For business enquiries please use the form below</h3>
+        <p>*Required</p>
+
+        <label for="customer_name">Name<span class="star">*</span>
+            <input type="text" name="customer_name" id="customer_name" required>
+        </label>
+
+        <label for="customer_company">Company<span class="star">*</span>
+        <input type="text" name="customer_company" id="customer_company" required>
+        </label>
+        <label for="email_address">Email<span class="star">*</span>
+        <input type="email" name="email_address" id="email_address" required>
+        </label>
+        <label for="customer_phone">Phone
+        <input type="phone" name="customer_phone" id="customer_phone">
+        </label>
+        <label for="customer_subject">Subject
+        <input type="text" name="customer_subject" id="customer_subject">
+        </label>
+        <label for="comments">Message<span class="star">*</span>
+        <textarea name="comments" id="comments" maxlength="500" required></textarea>
+        </label>
+
+        <div class="agreement">
+            <input type="checkbox" id="agreement" required>
+            <label for="agreement">I accept <a>Terms and Privacy Policy</a></label>
+        </div>
+
+        <button>Submit</button>
+    </form>
+</div>
+<app></app>
+</body>
+</html>
